@@ -17,8 +17,9 @@ class MyApp extends StatelessWidget {
       create: (context) => MyAppState(),
       child: MaterialApp(
         title: 'Namer App',
+        // Themes
+        darkTheme: ThemeData.dark(useMaterial3: true),
         theme: ThemeData(
-          useMaterial3: true,
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.lightBlue),
         ),
         home: MyHomePage(),
