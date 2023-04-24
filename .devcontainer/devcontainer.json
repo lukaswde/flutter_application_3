@@ -2,7 +2,7 @@
 // https://github.com/lucashilles/flutter-dev-container
 {
 	"name": "Flutter",
-	"dockerFile": "Dockerfile",
+	"dockerFile": "dockerfile",
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
 		"terminal.integrated.shell.linux": "/bin/bash",
